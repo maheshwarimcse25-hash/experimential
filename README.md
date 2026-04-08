@@ -1,168 +1,115 @@
-# experimential
-<!DOCTYPE html>
-<html>
+# experimential<!DOCTYPE html>
+<html lang="en">
 <head>
+    
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Precision Tools Inc.</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-        }
-
-        nav {
-            position: sticky;
-            top: 0;
-            background: #333;
-            padding: 15px;
-            text-align: center;
-            z-index: 1000;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        .hero {
-            background: #f4f4f4;
-            height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        .cta-button {
-            background: #007bff;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-
-        .team-section {
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        .team-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
-
-        .card {
-            border: 1px solid #ddd;
-            width: 250px;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .card img {
-            width: 100px;
-            height: 100px;
-            background: #ccc;
-            border-radius: 50%;
-            margin-bottom: 15px;
-        }
-
-        .contact-section {
-            background: #eee;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        form {
-            max-width: 400px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-        }
-
-        input, textarea {
-            margin-bottom: 15px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        button {
-            background: #28a745;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-    </style>
 </head>
-<body>
+<body bgcolor="lightpink">
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <!-- Header -->
+    <header>
+        <center>
+            <h1>🔧 Precision Tools Inc.</h1>
+            <p><i>Engineering the future with accuracy and care</i></p>
+            <hr width="60%">
+            <nav>
+                <a href="#">Home</a> |
+                <a href="#team">Team</a> |
+                <a href="#contact">Contact</a>
+            </nav>
+            <hr width="60%">
+        </center>
+    </header>
 
-    <div class="hero">
-        <h1>Precision Tools Inc.</h1>
-        <p>Engineering the future with accuracy and care.</p>
-        <a href="#contact" class="cta-button">Get a Quote</a>
-    </div>
+    <!-- Hero Section -->
+    <main>
+        <section>
+            <center>
+                <h2>Welcome to Precision Tools</h2>
+                <p>
+                    We deliver high-quality engineering solutions with precision, innovation,
+                    and reliability.
+                </p>
+                <br>
+                <a href="#contact">
+                    <button>Get a Quote</button>
+                </a>
+            </center>
+        </section>
 
-    <div id="team" class="team-section">
-        <h2>Meet Our Team</h2>
-        <div class="team-container">
-            <div class="card">
-                <div style="margin:auto" class="card img"></div>
-                <h3>John Doe</h3>
-                <p>CEO & Founder</p>
-            </div>
-            <div class="card">
-                <div style="margin:auto" class="card img"></div>
-                <h3>Jane Smith</h3>
-                <p>Head of Design</p>
-            </div>
-            <div class="card">
-                <div style="margin:auto" class="card img"></div>
-                <h3>Mike Ross</h3>
-                <p>Lead Engineer</p>
-            </div>
-        </div>
-    </div>
+        <br><br>
 
-    <div id="contact" class="contact-section">
-        <h2>Contact Us</h2>
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="Your Name" required>
-            
-            <label>Email</label>
-            <input type="email" placeholder="email@example.com" required>
-            
-            <label>Message</label>
-            <textarea rows="5" required></textarea>
-            
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
+        <!-- Team Section -->
+        <section id="team">
+            <center>
+                <h2>Meet Our Team</h2>
+                <p>Our talented professionals driving innovation</p>
+                <br>
+
+                <table border="1" cellpadding="15" cellspacing="0">
+                    <tr>
+                        <td align="center">
+                            <h3>John Doe</h3>
+                            <p><b>CEO & Founder</b></p>
+                            <p>Visionary leader with 15+ years of experience.</p>
+                        </td>
+
+                        <td align="center">
+                            <h3>Jane Smith</h3>
+                            <p><b>Head of Design</b></p>
+                            <p>Expert in modern product design and UX.</p>
+                        </td>
+
+                        <td align="center">
+                            <h3>Mike Ross</h3>
+                            <p><b>Lead Engineer</b></p>
+                            <p>Specialist in mechanical systems and innovation.</p>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+
+        <br><br>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <center>
+                <h2>Contact Us</h2>
+                <p>We’d love to hear from you!</p>
+
+                <form>
+                    <p>
+                        <input type="text" placeholder="Enter your full name" size="40" required>
+                    </p>
+
+                    <p>
+                        <input type="email" placeholder="Enter your email address" size="40" required>
+                    </p>
+
+                    <p>
+                        <textarea rows="5" cols="42" placeholder="Write your message here..." required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit"> Send Message</button>
+                    </p>
+                </form>
+            </center>
+        </section>
+    </main>
+
+    <br><br>
+
+    <!-- Footer -->
+    <footer>
+        <center>
+            <hr width="60%">
+            <p> 2026 Precision Tools Inc. | Built with using HTML</p>
+        </center>
+    </footer>
 
 </body>
 </html>
