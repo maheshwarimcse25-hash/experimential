@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-s<title>Precision Tools</title>
+<title>Precision Tools</title>
 </head>
 <body bgcolor="lightpink">
 <header>
